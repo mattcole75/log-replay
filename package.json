@@ -1,0 +1,22 @@
+{
+  "name": "log-replay",
+  "version": "1.0.0",
+  "description": "Replay TMS Local Controller Log files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start_app2_replay": "rm -f ./data/tms/app-2/replicated-logs/*.log && cd ./scripts && node app2-log-replay.js"
+  },
+  "keywords": [
+    "TMS",
+    "Log",
+    "File",
+    "Replay"
+  ],
+  "author": "Matt Cole",
+  "license": "ISC",
+  "dependencies": {
+    "event-stream": "^4.0.1",
+    "moment": "^2.29.4"
+  }
+}
