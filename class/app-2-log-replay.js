@@ -91,7 +91,7 @@ class App2LogSim {
                                 setTimeout(writeToLog, timeInterval, line);
                                 break;
                             case 2:
-                                setTimeout(writeToLog, 25, line);
+                                setTimeout(writeToLog, 15, line);
                                 break;
                             case 3:
                                 setTimeout(writeToLog, 0, line);
