@@ -1,5 +1,5 @@
-const App2LogReplay = require('../class/app-2-log-replay');
-const config = require('../config/app-2-logs');
+const App1LogReplay = require('../class/app1-log-replay');
+const config = require('../config/app1-logs');
 const logs = [];
 
 // The program will have a number of modes:
@@ -11,8 +11,8 @@ const mode = 1;
 // load config
 config.forEach(lc => {
     const { area, log } = lc.localController;
-    const app2LogReplay = new App2LogReplay(area, log.fileToReplicate, log.replicatedOutputPath, null, mode);
-    logs.push(app2LogReplay);
+    const app1LogReplay = new App1LogReplay(area, log.fileToReplicate, log.replicatedOutputPath, null, mode);
+    logs.push(app1LogReplay);
 
     console.log('ok - ' + area + ' replay is ready.');
 });

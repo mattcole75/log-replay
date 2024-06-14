@@ -4,7 +4,7 @@ const es = require('event-stream');
 const moment = require('moment');
 const WriteToFile = require('./write-to-file');
 
-class App2LogSim {
+class App1LogSim {
 
     constructor (area, fileToReplicate, replicatedOutputPath, logSyncStartTime, mode) {
         this.area = area;
@@ -112,4 +112,4 @@ class App2LogSim {
     };
 };
 
-module.exports = App2LogSim;
+module.exports = App1LogSim;
