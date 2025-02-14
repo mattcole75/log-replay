@@ -1,16 +1,14 @@
 {
   "name": "log-replay",
   "version": "1.0.0",
-  "description": "Replay TMS Local Controller Log files",
-  "main": "index.js",
+  "description": "Replay Log files",
+  "main": "log-replay.js",
   "scripts": {
-    "test": "jest",
-    "reset": "rm -f ./data/tms/app1/replicated-logs/*.log",
-    "empty": "truncate -s 0 ./data/tms/app1/replicated-logs/*.log",
-    "start": "cd ./scripts && node app1-log-replay.js"
+    "reset": "rm -f ./data/replicated-logs/*.log",
+    "empty": "truncate -s 0 ./data/replicated-logs/*.log",
+    "start": "cd ./scripts && node log-replay.js"
   },
   "keywords": [
-    "TMS",
     "Log",
     "File",
     "Replay"
