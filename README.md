@@ -36,7 +36,7 @@ This section aims to give detailed instructions on how to set up the system to r
     > It makes life easier if there are no spaces in the file name
 2. update the configuration file:
 ```
-module.exports = logFiles = [
+const logFiles = [
     {
         log: {
             id: 'CNK',
@@ -75,5 +75,6 @@ There are two configurable options available in the config file.
 No FAQ yet
 
 ## Change Log
-2025-02-14 - Updated the make the system more generic. Included the README.md file and GNU license
-2025-02-15 - Move configuration options to the config file.
+- 2025-02-14 - Updated the make the system more generic. Included the README.md file and GNU license.
+- 2025-02-15 - Move configuration options to the config file.
+- 2025-02-15 - Fixed a few typos in the README.
