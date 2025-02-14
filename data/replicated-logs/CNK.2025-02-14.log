@@ -1,0 +1,92 @@
+23:59:58.949 Dig I/P 0.4 changed from 0 to 1
+23:59:58.949 Dig O/P 0.15 changed from 1 to 0
+23:59:58.949 Dig O/P 0.16 changed from 0 to 1
+23:59:58.949 Dig O/P 1.27 changed from 0 to 1
+23:59:59.924 Tram 3048 Line 3 Route 30 Loop 1 coupled arrival 
+00:00:00.354 Dig O/P 0.1 changed from 1 to 0
+00:00:01.824 Tram 3092 Line 7 Route 20 Loop 22 arrival 
+00:00:02.498 Dig I/P 1.29 changed from 1 to 0
+00:00:02.498 Dig O/P 1.18 changed from 1 to 0
+00:00:02.498 CVJ 1 released
+00:00:03.593 Dig I/P 1.31 changed from 0 to 1
+00:00:03.593 Dig I/P 3.2 changed from 0 to 1
+00:00:03.593 Dig O/P 0.29 changed from 0 to 1
+00:00:03.593 Dig O/P 0.31 changed from 1 to 0
+00:00:03.898 Tram 3048 Line 3 Route 30 Loop 1 coupled departure 
+00:00:07.791 Tram 3092 Line 7 Route 20 Loop 22 departure 
+00:00:08.584 Dig O/P 0.27 changed from 0 to 1
+00:00:08.584 Dig O/P 0.29 changed from 1 to 0
+00:00:08.644 Dig O/P 0.30 changed from 1 to 0
+00:00:09.311 Dig I/P 1.2 changed from 1 to 0
+00:00:10.530 Tram 3050 Line 6 Route 83 Loop 5 arrival 
+00:00:10.530 MPJ 1 released
+00:00:10.652 Dig I/P 1.31 changed from 1 to 0
+00:00:10.652 Dig I/P 3.2 changed from 1 to 0
+00:00:11.687 Dig O/P 1.31 changed from 1 to 0
+00:00:14.658 Tram 3050 Line 6 Route 83 Loop 5 departure 
+00:00:16.116 Tram 3050 Line 6 Route 83 Loop 8 arrival 
+00:00:16.972 Dig I/P 0.21 changed from 0 to 1
+00:00:16.972 MPJ_Int[1].cmp_int.sig_inh = 1
+00:00:17.031 Dig O/P 0.16 changed from 1 to 0
+00:00:17.031 Dig O/P 0.17 changed from 0 to 1
+23:59:58.949 Dig I/P 0.4 changed from 0 to 1
+23:59:58.949 Dig O/P 0.15 changed from 1 to 0
+23:59:58.949 Dig O/P 0.16 changed from 0 to 1
+23:59:58.949 Dig O/P 1.27 changed from 0 to 1
+23:59:59.924 Tram 3048 Line 3 Route 30 Loop 1 coupled arrival 
+00:00:00.354 Dig O/P 0.1 changed from 1 to 0
+00:00:01.824 Tram 3092 Line 7 Route 20 Loop 22 arrival 
+00:00:02.498 Dig I/P 1.29 changed from 1 to 0
+00:00:02.498 Dig O/P 1.18 changed from 1 to 0
+00:00:02.498 CVJ 1 released
+00:00:03.593 Dig I/P 1.31 changed from 0 to 1
+00:00:03.593 Dig I/P 3.2 changed from 0 to 1
+00:00:03.593 Dig O/P 0.29 changed from 0 to 1
+00:00:03.593 Dig O/P 0.31 changed from 1 to 0
+00:00:03.898 Tram 3048 Line 3 Route 30 Loop 1 coupled departure 
+00:00:07.791 Tram 3092 Line 7 Route 20 Loop 22 departure 
+00:00:08.584 Dig O/P 0.27 changed from 0 to 1
+00:00:08.584 Dig O/P 0.29 changed from 1 to 0
+00:00:08.644 Dig O/P 0.30 changed from 1 to 0
+00:00:09.311 Dig I/P 1.2 changed from 1 to 0
+00:00:10.530 Tram 3050 Line 6 Route 83 Loop 5 arrival 
+00:00:10.530 MPJ 1 released
+00:00:10.652 Dig I/P 1.31 changed from 1 to 0
+00:00:10.652 Dig I/P 3.2 changed from 1 to 0
+00:00:11.687 Dig O/P 1.31 changed from 1 to 0
+00:00:14.658 Tram 3050 Line 6 Route 83 Loop 5 departure 
+00:00:16.116 Tram 3050 Line 6 Route 83 Loop 8 arrival 
+00:00:16.972 Dig I/P 0.21 changed from 0 to 1
+00:00:16.972 MPJ_Int[1].cmp_int.sig_inh = 1
+00:00:17.031 Dig O/P 0.16 changed from 1 to 0
+00:00:17.031 Dig O/P 0.17 changed from 0 to 1
+23:59:58.949 Dig I/P 0.4 changed from 0 to 1
+23:59:58.949 Dig O/P 0.15 changed from 1 to 0
+23:59:58.949 Dig O/P 0.16 changed from 0 to 1
+23:59:58.949 Dig O/P 1.27 changed from 0 to 1
+23:59:59.924 Tram 3048 Line 3 Route 30 Loop 1 coupled arrival 
+00:00:00.354 Dig O/P 0.1 changed from 1 to 0
+00:00:01.824 Tram 3092 Line 7 Route 20 Loop 22 arrival 
+00:00:02.498 Dig I/P 1.29 changed from 1 to 0
+00:00:02.498 Dig O/P 1.18 changed from 1 to 0
+00:00:02.498 CVJ 1 released
+00:00:03.593 Dig I/P 1.31 changed from 0 to 1
+00:00:03.593 Dig I/P 3.2 changed from 0 to 1
+00:00:03.593 Dig O/P 0.29 changed from 0 to 1
+00:00:03.593 Dig O/P 0.31 changed from 1 to 0
+00:00:03.898 Tram 3048 Line 3 Route 30 Loop 1 coupled departure 
+23:59:58.949 Dig I/P 0.4 changed from 0 to 1
+23:59:58.949 Dig O/P 0.15 changed from 1 to 0
+23:59:58.949 Dig O/P 0.16 changed from 0 to 1
+23:59:58.949 Dig O/P 1.27 changed from 0 to 1
+23:59:59.924 Tram 3048 Line 3 Route 30 Loop 1 coupled arrival 
+00:00:00.354 Dig O/P 0.1 changed from 1 to 0
+00:00:01.824 Tram 3092 Line 7 Route 20 Loop 22 arrival 
+00:00:02.498 Dig I/P 1.29 changed from 1 to 0
+00:00:02.498 Dig O/P 1.18 changed from 1 to 0
+00:00:02.498 CVJ 1 released
+00:00:03.593 Dig I/P 1.31 changed from 0 to 1
+00:00:03.593 Dig I/P 3.2 changed from 0 to 1
+00:00:03.593 Dig O/P 0.29 changed from 0 to 1
+00:00:03.593 Dig O/P 0.31 changed from 1 to 0
+00:00:03.898 Tram 3048 Line 3 Route 30 Loop 1 coupled departure 
