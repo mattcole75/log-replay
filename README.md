@@ -61,8 +61,19 @@ this.time = line.slice(0, 11);
 - change the slice to suite the given log file.
 4. Start the application and test the configuration.
 
+## Options
+There are two configurable options available in the config file.
+1. mode: there are three available operational modes:
+    - 1 = replicated the log file speed simulating it in realtime.
+    - 2 = read in each line of the log file every .5 seconds.
+    - 3 = full speed as quickly as the host computer can go.
+2. options: there is only a single option.
+    - timeSkip: false = the system will start from the beginning of the file.
+    - timeSkip: true = the system will read through the log file until it finds a line closest to the current computer time and start from that position.
+
 ## FAQ
 No FAQ yet
 
 ## Change Log
-2025/02/2025 - Updated the make the system more generic. Included the README.md file and GNU license
+2025-02-14 - Updated the make the system more generic. Included the README.md file and GNU license
+2025-02-15 - Move configuration options to the config file.

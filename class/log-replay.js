@@ -54,7 +54,7 @@ class LogSim {
                 // one set of files is not using BST correctly and so start at 23:00:00! adding an hour to those files
                 // look for files that start at 23h
                 let bstime = null;
-                if(this.skip && (this.time.slice(0, 2) === '23')) {
+                if(this.timeSkip && (this.time.slice(0, 2) === '23')) {
                     this.bst = true;
                 }
                 if(this.bst) {
@@ -71,7 +71,7 @@ class LogSim {
                 this.lineNo += 1;
 
                 // check if the time is roughly equal to now then start
-                if(this.skip) {
+                if(this.timeSkip) {
 
                     this.timeSkip = (this.time <= moment().format("HH:mm:ss:SSS"));
                     // resume the readstream, possibly from a callback
@@ -89,7 +89,7 @@ class LogSim {
                                 setTimeout(writeToLog, timeInterval, line);
                                 break;
                             case 2:
-                                setTimeout(writeToLog, 15, line);
+                                setTimeout(writeToLog, 500, line);
                                 break;
                             case 3:
                                 setTimeout(writeToLog, 0, line);
