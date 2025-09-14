@@ -6,7 +6,7 @@
   "scripts": {
     "reset": "rm -f ./data/replicated-logs/*.log",
     "empty": "truncate -s 0 ./data/replicated-logs/*.log",
-    "start": "cd ./scripts && node log-replay.js"
+    "start": "cd ./scripts && node replay.js"
   },
   "keywords": [
     "Log",
@@ -16,7 +16,6 @@
   "author": "Matt Cole",
   "license": "ISC",
   "dependencies": {
-    "event-stream": "^4.0.1",
-    "moment": "^2.29.4"
+    "minimist": "^1.2.8"
   }
 }
